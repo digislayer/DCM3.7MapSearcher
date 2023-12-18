@@ -26,7 +26,7 @@ If a match is found, it's details are printed to console as comma separated text
  */
 public class MapFinder32Bit {
     static final int SEQ_SIZE = 5; //Scanning buffer sequence size. Delphi DCM3.7 uses a maximum of five 32-bit blocks for a 3d map declaration.
-    static final String FILE_PATH = "/home/docker/Downloads/Verna1.4 - Stage1"; //Absolute path of the binary dump location
+    static final String FILE_PATH = ""; //Absolute path of the binary dump location
     static final String MAX_ADDRESS_LOCATION_HEX = "0021FFE0"; //HEX of last physical 16-bit address of the ECU file.
     public static void main(String[] args) throws IOException {
         if (FILE_PATH.trim().length() == 0) {
